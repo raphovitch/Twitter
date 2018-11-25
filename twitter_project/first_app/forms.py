@@ -3,6 +3,7 @@ from django.core import validators
 from first_app.models import UserProfileInfo
 from django.contrib.auth.models import User
 
+#Wesh ma geule 
 class UserForm(forms.ModelForm):
 	password = forms.CharField(widget= forms.PasswordInput())
 
