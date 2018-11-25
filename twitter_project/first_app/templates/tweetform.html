@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block header_title %} Profile {% endblock %}
+
+{% block content %}
+  <h1>Create a tweet for {{user}}</h1>
+<form method="POST">
+  {{ form.as_p }}
+  {% csrf_token %}
+  <input type="submit" name="send" value="send" class="btn btn-outline-primary btn-block">
+
+
+</form>
+  
+{% endblock %}
+</body>
+</html>
+

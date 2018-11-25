@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block header_title %} Twitter project {% endblock %}
+
+{% block content %}
+<h1>The lasts Tweets are  : </h1>
+  {% for tweet in list %}
+  <div class="tweet">
+  	<div class= "username">
+  	<a href="{% url 'first_app:profile' user_id=tweet.user.i %}">
+  	 <h3>{{tweet.user.name}}</h3>
+  	</a>
+  	</div>
+  	<p>{{tweet.text}}</p>
+  </div>
+  {% endfor %}
+
+ {% endblock %}
+
+

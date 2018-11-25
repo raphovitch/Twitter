@@ -1,0 +1,54 @@
+h1 {
+	color : black;
+}
+
+
+img {
+	width: 300px;
+	height: 200px;
+}
+
+.tweet {
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	margin : 10px;
+	padding: 10px 20px 10px 20px;
+	background-color: #74b9ff;
+}
+
+body {
+	font-family: 'Helvatica';
+}
+
+.container{
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+.tweet a {
+	color : #2d3436;
+	text-decoration: none; 
+}
+
+.tweet a:hover {
+	color : #b2bec3;
+}
+
+.username{
+	padding-bottom:10px;
+}
+
+nav {
+    padding: 20px 10px;
+    background-color: #003366;
+    border-radius: 20px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: lighter;
+}

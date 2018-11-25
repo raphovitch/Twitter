@@ -1,0 +1,8 @@
+{% block_content_2 %}
+<h1>The lasts tweets of {{list.0.user.name}} are : </h1>
+  {% for tweet in list %}
+  <div class="tweet">
+  	 <h5>{{tweet.text}}</h5>
+  	 </div>
+{% endblock %}
+
